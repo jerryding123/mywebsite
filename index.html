@@ -4,63 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: black; background: white; }
+    header, section { margin-bottom: 2rem; }
+    h1, h2, h3 { font-weight: normal; }
+    a { color: black; text-decoration: underline; }
+    .project { margin-bottom: 1.5rem; }
+
+    /* Timeline */
+    .timeline { display: flex; gap: 2rem; overflow-x: auto; padding: 1rem 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+    .timeline-event { min-width: 150px; text-align: center; }
+    .timeline-event h3 { margin: 0.5rem 0; font-size: 1rem; }
+    .timeline-event p { font-size: 0.9rem; margin: 0; }
+  </style>
 </head>
 <body>
-  <!-- Header -->
   <header>
-    <nav>
-      <h1>My Portfolio</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Jerry Ding</h1>
+    <p>Pure Math, Abstract Algebra, AI/ML, Tech Banking, React, NodeJS, Electron, Swift, IG / TikTok marketing, UIUX</p>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
-    <p>A passionate developer who loves building cool things.</p>
-  </section>
-
-  <!-- About -->
-  <section id="about">
+  <section>
     <h2>About Me</h2>
-    <p>Write a short bio here — who you are, what you do, and what excites you about coding or design.</p>
+    <p>A short paragraph about yourself — your skills, background, and what excites you about coding/design.</p>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
+  <section>
     <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="images/project1.png" alt="Project 1">
-        <h3>Project One</h3>
-        <p>A short description of your project.</p>
-        <a href="#" target="_blank">View Project</a>
+    <div class="project">
+      <h3><a href="#">Interview Pilot</a></h3>
+      <p>4.8 / 5.0 stars, 1,000 ratings globally, 3M+ views TikTok, IG</p>
+    </div>
+    <div class="project">
+      <h3><a href="#">Whisper Notes</a></h3>
+      <p>4.9 / 5.0 stars, 300 ratings globally</p>
+    </div>
+        <div class="project">
+      <h3><a href="#">Uru</a></h3>
+      <p>Pre-launch</p>
+          <div class="project">
+      <h3><a href="#">VibeCoder</a></h3>
+      <p>Pre-launch</p>
+    </div>
+        <div class="project">
+      <h3><a href="#">Terms & Conditions</a></h3>
+      <p>Pre-launch</p>
+    </div>
+    </div>
+        <div class="project">
+      <h3><a href="#">Chronicle</a></h3>
+      <p>Pre-launch</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-event">
+        <h3>Jun 2023</h3>
+        <p>UCLA Double Major — Pure Mathematics, Business Economics</p>
       </div>
-      <div class="project-card">
-        <img src="images/project2.png" alt="Project 2">
-        <h3>Project Two</h3>
-        <p>Another cool project you’ve built.</p>
-        <a href="#" target="_blank">View Project</a>
+      <div class="timeline-event">
+        <h3>Dec 2023</h3>
+        <p>Mizuho TMT, SF — Technology Investment Banking</p>
+      </div>
+      <div class="timeline-event">
+        <h3>2024</h3>
+        <p>Internship or key milestone.</p>
+      </div>
+      <div class="timeline-event">
+        <h3>Jun 2025</h3>
+        <p>Liberace Pte. Ltd. — 6 Figures ARR</p>
+      </div>
+      <div class="timeline-event">
+        <h3>Aug 2025</h3>
+        <p>Vanderbilt University — MSCS</p>
+      </div>
+      <div class="timeline-event">
+        <h3>2028</h3>
+        <p>Another highlight.</p>
+      </div>
+      <div class="timeline-event">
+        <h3>2025</h3>
+        <p>Present day.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
+  <section>
     <h2>Contact</h2>
-    <p>Feel free to reach out via email or connect with me on GitHub!</p>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/USERNAME" target="_blank">@USERNAME</a></p>
+    <p>Email: <a href="mailto:jerry.ding@liberaceai.com">jerry.ding@liberaceai.com</a></p>
+    <p>GitHub: <a href="https://github.com/jerryding123">@jerryding123</a></p>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Your Name</p>
+    <p>&copy; 2025 Jerry Ding</p>
   </footer>
 </body>
 </html>
